@@ -1,0 +1,45 @@
+module.exports = {
+  extends: ["@remix-run/eslint-config"],
+  "env": {
+    "browser": true,
+    "es2021": true
+},
+"extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+],
+"parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+},
+"plugins": [
+    "react"
+],
+"rules": {
+    "indent": [
+        "error",
+        "tab"
+    ],
+    "quotes": [
+        "error",
+        "single"
+    ],
+    "semi": [
+        "error",
+        "never"
+    ],
+    "no-multi-spaces": [
+        "error"
+    ],
+    "no-multiple-empty-lines":[
+        "error"
+    ],
+    "react/prop-types":[
+        "error",
+        "never"
+    ]
+}
+};
