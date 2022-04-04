@@ -9,7 +9,7 @@ import {
 } from "remix";
 
 export function meta() {
-  return { title: "New Remix App" };
+  return { title: "W&W" };
 }
 
 export function links() {
