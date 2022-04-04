@@ -2,8 +2,15 @@ import { Link } from "remix";
 
 export function DotNav(props) {
   console.log(props.activeState);
+
+
+
+
+
+
+
+
   return (
-    <>
       <ul className="fixed top-1/2 right-5 -translate-y-1/2 z-50 hidden md:block">
         {props.sections.map((section, index) => (
           <Link to={`#${section}`} className=" relative top-0 w-2 h-2">
@@ -23,6 +30,5 @@ export function DotNav(props) {
           </Link>
         ))}
       </ul>
-    </>
   );
 }
