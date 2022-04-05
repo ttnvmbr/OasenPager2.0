@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export function SectionContainer () {
-
-    return(
-    <div className='bg-white w-10/12 h-5/6 rounded-3xl'></div>
-    )
-
+export function SectionContainer() {
+  return <div className="bg-white w-screen h-5/6"></div>;
 }
