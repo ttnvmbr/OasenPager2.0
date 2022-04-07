@@ -43,7 +43,10 @@ export function Footer() {
               href="https://trello.com/b/gJG5AL7e/oasen"
               className="text-xl oasenwhite hover:text-black duration-500"
             >
-              <span className="iconify text-7xl" data-icon="bxl:trello"></span>
+              <span
+                className="iconify text-xl md:text-6xl"
+                data-icon="bxl:trello"
+              ></span>
             </a>
           </li>
           <li className="md:w-14 w-10">
