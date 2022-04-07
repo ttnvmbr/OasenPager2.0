@@ -510,11 +510,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .top-1\/2 {
   top: 50%;
 }
@@ -558,10 +553,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-8 {
   margin-right: 2rem;
-}
-
-.block {
-  display: block;
 }
 
 .inline {
@@ -662,10 +653,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
-.resize {
-  resize: both;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -754,14 +741,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-4xl {
@@ -781,11 +768,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-6xl {
   font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -873,10 +855,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 3.5rem;
   }
 
-  .md\:w-16 {
-    width: 4rem;
-  }
-
   .md\:items-center {
     align-items: center;
   }
@@ -898,6 +876,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 
