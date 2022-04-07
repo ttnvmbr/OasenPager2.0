@@ -4,7 +4,7 @@ export function Research() {
       <div className="flex flex-col w-full h-full justify-center items-center relative">
         <h1 className=" w-full oasenh1 flex justify-center p-4">Onderzoek</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="w-full lg:w-1/3 flex justify-center md:items-center h-full">
+          <div className="w-full lg:w-1/2 flex justify-center md:items-center h-full">
             <img
               className="h-32 sm:h-48 md:h-62"
               src="src/brainstorm.jpg"
