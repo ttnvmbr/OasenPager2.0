@@ -44,7 +44,7 @@ export function Footer() {
               className="text-xl oasenwhite hover:text-black duration-500"
             >
               <span
-                className="iconify text-xl md:text-6xl"
+                className="iconify text-5xl md:text-6xl"
                 data-icon="bxl:trello"
               ></span>
             </a>
