@@ -9,9 +9,9 @@ export function OasenForKids() {
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/uIdKT3sly2I"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <p className="p-4 m-4 lg:w-1/2 text-xs md:text-sm">

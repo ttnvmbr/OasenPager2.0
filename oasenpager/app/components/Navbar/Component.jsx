@@ -1,6 +1,6 @@
 export function Navbar() {
   return (
-    <nav className="p-5 bg-blue-oasen shadow flex items-center justify-between sticky top-0 z-50">
+    <nav className="p-5 bg-blue-oasen shadow flex items-center justify-between top-0 z-50">
       <span className="cursor-pointer">
         <img
           className="h-16 md:h-20 inline"
@@ -17,7 +17,7 @@ export function Navbar() {
       </span>
 
       <ul className="md:flex md:items-center">
-        <li className="mx-4">
+        <li className="mx-4" key="li1">
           <a
             href="https://www.oasen.nl/mijn-oasen"
             className="text-lg md:text-xl oasenwhite hover:text-black duration-500"
@@ -25,7 +25,7 @@ export function Navbar() {
             Mijn Oasen
           </a>
         </li>
-        <li className="mx-4">
+        <li className="mx-4" key="li2">
           <a
             href="https://www.oasen.nl/drinkwater"
             className="text-lg md:text-xl oasenwhite hover:text-black duration-500"
@@ -42,7 +42,7 @@ export function Navbar() {
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
       ></script>
       <script
-        nomodule
+        noModule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
       ></script>
     </nav>
