@@ -27,7 +27,7 @@ export default function Index() {
 
     return (
       <section
-        ref={ref}
+        // ref={ref}
         id={props.id}
         className={`h-screen w-screen bg-blue-oasen flex justify-center items-center relative`}
       >
