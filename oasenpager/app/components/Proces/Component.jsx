@@ -7,7 +7,7 @@ export function Proces() {
           <div className="h-52 md:h-80  lg:max-h-full">
             <img className="w-full h-full" src="src/concept.jpg" alt="" />
           </div>
-          <p className="text-xs md:text-base lg:text-lg p-4 m-4 lg:w-1/2">
+          <p className="text-xs md:text-sm p-4 m-4 lg:w-1/2">
             We zijn begonnen met conceptualiseren door middel van “Crazy 8s”.
             Dit is een ontwerpmethode waarbij we zo snel mogelijk ideeën hebben
             bedacht en genoteerd met schetsen. Hierna hebben we deze ideeën in

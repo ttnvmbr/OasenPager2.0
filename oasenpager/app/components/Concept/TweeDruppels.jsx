@@ -4,7 +4,7 @@ export function TweeDruppels() {
       <div className="flex flex-col w-full h-full justify-center items-center relative">
         <h1 className=" w-full oasenh1 flex justify-center p-4">2 Druppels</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="h-52 md:h-full md:w-1/2 md:p-4 lg:max-h-full">
+          <div className="h-52 md:w-1/2 md:p-4 md:h-96">
             <iframe
               width="100%"
               height="100%"
@@ -14,7 +14,7 @@ export function TweeDruppels() {
               allowfullscreen
             ></iframe>
           </div>
-          <p className="p-4 m-4 lg:w-1/2 text-xs md:text-base lg:text-lg">
+          <p className="p-4 m-4 lg:w-1/2 text-xs md:text-sm">
             2 druppels is een concept waarbij we ons voornamelijk focussen op
             het vergroten van het bewustzijn van de gebruiker over drinkwater en
             de meerwaarde van kraanwater (met name dat van Oasen), door de

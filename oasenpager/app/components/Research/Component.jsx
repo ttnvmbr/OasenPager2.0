@@ -16,7 +16,7 @@ export function Research() {
               alt="inspiratie en inzichten"
             />
           </div>
-          <p className="text-xs md:text-base lg:text-lg p-4 m-4 lg:w-1/2">
+          <p className="text-xs md:text-sm p-4 m-4 lg:w-1/2">
             Om te beginnen bij het proces hebben we na het bezoek aan Oasen een
             aantal belangrijke punten opgeschreven en hebben vanuit daar een
             uitgebreide brainstormsessie gehouden. Dit houd in dat we aan de
