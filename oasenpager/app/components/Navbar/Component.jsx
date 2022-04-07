@@ -3,14 +3,14 @@ export function Navbar() {
     <nav className="p-5 bg-blue-oasen shadow flex items-center justify-between sticky top-0">
       <span className="cursor-pointer">
         <img
-          className="h-20 inline"
+          className="h-16 md:h-20 inline"
           src="src/Oasen_Logo_Drinkwater_Kleur_RGB.png"
           alt="Oasen Drinkwater"
         />
       </span>
       <span className="absolute left-1/2 -translate-x-1/2">
         <img
-          className="h-20 inline"
+          className="h-16 md:h-20 inline"
           src="src/Logo.png"
           alt="Oasen Drinkwater"
         />
@@ -20,7 +20,7 @@ export function Navbar() {
         <li className="mx-4">
           <a
             href="https://www.oasen.nl/mijn-oasen"
-            className="text-xl oasenwhite hover:text-black duration-500"
+            className="text-lg md:text-xl oasenwhite hover:text-black duration-500"
           >
             Mijn Oasen
           </a>
@@ -28,7 +28,7 @@ export function Navbar() {
         <li className="mx-4">
           <a
             href="https://www.oasen.nl/drinkwater"
-            className="text-xl oasenwhite hover:text-black duration-500"
+            className="text-lg md:text-xl oasenwhite hover:text-black duration-500"
           >
             Drinkwater
           </a>

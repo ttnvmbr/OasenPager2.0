@@ -6,7 +6,7 @@ export function Accessibility() {
           Accessability
         </h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="h-52 md:h-72 lg:w-1/2  lg:max-h-full">
+          <div className="h-52 md:h-full md:w-1/2 md:p-4 lg:max-h-full">
             <iframe
               width="100%"
               height="100%"
@@ -16,7 +16,7 @@ export function Accessibility() {
               allowfullscreen
             ></iframe>
           </div>
-          <p className="p-4 m-4 lg:w-1/2">
+          <p className="p-4 m-4 lg:w-1/2 text-xs md:text-base lg:text-lg">
             Ons eerste concept is “accessible overlay”, dit is het idee om een
             volledig accessible, versimpelde versie van de huidige website te
             maken zodat ook gebruikers die minder toegankelijk zijn toegang

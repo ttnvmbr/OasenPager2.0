@@ -2,12 +2,21 @@ export function Research() {
   return (
     <div className="w-screen h-screen absolute flex items-center justify-center z-30">
       <div className="flex flex-col w-full h-full justify-center items-center relative">
-        <h1 className=" w-full oasenh1 flex justify-center p-0">Onderzoek</h1>
+        <h1 className=" w-full oasenh1 flex justify-center p-4">Onderzoek</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="h-40 md:h-72 lg:w-1/2">
-            <img className="w-full h-full" src="src/research.png" alt="" />
+          <div className="w-full lg:w-1/3 flex justify-center md:items-center h-full">
+            <img
+              className="h-32 sm:h-48 md:h-62"
+              src="src/brainstorm.jpg"
+              alt="brainstorm"
+            />
+            <img
+              className="h-32 sm:h-48 md:h-62"
+              src="src/inspoinsight.jpg"
+              alt="inspiratie en inzichten"
+            />
           </div>
-          <p className="p-4 m-4 lg:w-1/2">
+          <p className="text-xs md:text-base lg:text-lg p-4 m-4 lg:w-1/2">
             Om te beginnen bij het proces hebben we na het bezoek aan Oasen een
             aantal belangrijke punten opgeschreven en hebben vanuit daar een
             uitgebreide brainstormsessie gehouden. Dit houd in dat we aan de

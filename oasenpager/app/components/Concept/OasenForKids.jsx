@@ -2,9 +2,9 @@ export function OasenForKids() {
   return (
     <div className="w-screen h-screen absolute flex items-center justify-center z-30">
       <div className="flex flex-col w-full h-full justify-center items-center relative">
-        <h1 className=" w-full oasenh1 flex justify-center p-0">Kids tour</h1>
+        <h1 className=" w-full oasenh1 flex justify-center p-4">Kids tour</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="h-52 md:h-72 lg:w-1/2  lg:max-h-full">
+          <div className="h-52 md:h-full md:w-1/2 md:p-4 lg:max-h-full">
             <iframe
               width="100%"
               height="100%"
@@ -14,7 +14,7 @@ export function OasenForKids() {
               allowfullscreen
             ></iframe>
           </div>
-          <p className="p-4 m-4 lg:w-1/2">
+          <p className="p-4 m-4 lg:w-1/2 text-xs md:text-base lg:text-lg">
             Het tweede idee dat we hebben uitgewerkt is “kidstour”. Dit idee is
             een interactieve tour voor kinderen tussen de 6 en 12 jaar oud waar
             ze op een leuke manier kunnen leren over bijvoorbeeld schoonwater en
