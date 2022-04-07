@@ -39,7 +39,7 @@ export default function Index() {
   return (
     <>
       <Navbar />
-      <DotNav sections={sections} activeState={indexActive} />
+      {/* <DotNav sections={sections} activeState={indexActive} /> */}
 
       <Section inViewHandler={() => setIndexActive(0)} id={sections[0]}>
         <SectionContainer></SectionContainer>
