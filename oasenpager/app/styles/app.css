@@ -779,6 +779,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -861,6 +871,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-14 {
     width: 3.5rem;
+  }
+
+  .md\:w-16 {
+    width: 4rem;
   }
 
   .md\:items-center {
