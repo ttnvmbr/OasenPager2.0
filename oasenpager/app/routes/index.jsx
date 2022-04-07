@@ -1,4 +1,4 @@
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 import { DotNav } from "~/components/DotNav/Component";
 import { SectionContainer } from "~/components/SectionContainer/Component";
 import { SectionWater } from "~/components/SectionWater/Component";
@@ -17,13 +17,13 @@ export default function Index() {
   const sections = [0, 1, 2, 3, 4, 5, 6];
 
   const Section = (props) => {
-    const [ref, inView] = useInView({ threshold: 0.5 });
+    // const [ref, inView] = useInView({ threshold: 0.5 });
 
-    React.useEffect(() => {
-      if (inView) {
-        props.inViewHandler();
-      }
-    }, [inView]);
+    // React.useEffect(() => {
+    //   if (inView) {
+    //     props.inViewHandler();
+    //   }
+    // }, [inView]);
 
     return (
       <section
