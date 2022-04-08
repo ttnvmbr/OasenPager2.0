@@ -14,11 +14,12 @@ import { Accessibility } from "~/components/Concept/Accessibility";
 import { Team } from "../components/Team/Component";
 import { Choice } from "../components/Choice/Component";
 import { Finish } from "../components/Finish/Component";
+import { Deploy } from "../components/Deploy/Component";
 
 export default function Index() {
   const [indexActive, setIndexActive] = React.useState(0);
 
-  const sections = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  const sections = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   const Section = (props) => {
     const [ref, inView] = useInView({ threshold: 0.5 });
@@ -95,6 +96,11 @@ export default function Index() {
         </div>
         <SectionWater></SectionWater>
         <Finish />
+      </Section>
+
+      <Section inViewHandler={() => setIndexActive(9)} id={sections[9]}>
+        <SectionContainer></SectionContainer>
+        <Deploy />
       </Section>
 
       <Footer />
