@@ -5,18 +5,17 @@ export function Accessibility() {
         <h1 className=" w-full oasenh1 flex justify-center p-4">
           Accessibility
         </h1>
-        <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="h-52 md:w-1/2 md:p-4 md:h-96">
+        <div className="flex flex-col items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
+          <div className="w-10/12 max-w-screen-lg  px-4 md:p-0">
             <iframe
-              width="100%"
-              height="100%"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/dOWhWAwQZNU"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
           </div>
-          <p className="p-4 m-4 lg:w-1/2 text-xs md:text-sm">
+          <p className="p-4 m-4 text-xs md:text-sm text-center max-w-screen-lg">
             Ons eerste concept is “accessible overlay”, dit is het idee om een
             volledig accessible, versimpelde versie van de huidige website te
             maken zodat ook gebruikers die minder toegankelijk zijn toegang

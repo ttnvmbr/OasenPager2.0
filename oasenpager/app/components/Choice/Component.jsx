@@ -5,15 +5,15 @@ export function Choice() {
         <h1 className=" w-full oasenh1 flex justify-center p-4">
           Vervolgstappen
         </h1>
-        <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="flex justify-center md:items-center h-full">
+        <div className="flex flex-col items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
+          <div className="w-10/12 md:w-full max-w-screen-lg px-4">
             <img
-              className="h-32 sm:h-48 md:h-62"
+              className="w-full aspect-auto"
               src="src/vervolg.jpg"
               alt="vervolg"
             />
           </div>
-          <p className="text-xs md:text-sm p-4 m-4 lg:w-1/2">
+          <p className="text-xs md:text-sm p-4 m-4 text-center max-w-screen-lg">
             Naar aanleiding van de keuze van Oasen zijn we aan de slag gegaan
             met het concept “twee druppels water”. Na de keuze voor dit concept
             hebben we de feedback vanuit Oasen in punten genoteerd zodat we de

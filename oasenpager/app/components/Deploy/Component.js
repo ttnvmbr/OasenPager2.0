@@ -45,7 +45,7 @@ export function Deploy() {
             </li>
           </ul>
         </div>
-        <p className="text-xs md:text-sm p-4 m-4 lg:w-1/2 text-center lg:text-left">
+        <p className="text-xs md:text-sm p-4 m-4 lg:w-1/2 text-center lg:text-left max-w-screen-lg">
           Omdat het eindproduct nu nog het minimum viable product is staan er
           nog een aantal punten open waarvan we denken dat het product verbeterd
           zou kunnen worden als deze worden toegevoegd. We zien
