@@ -25,7 +25,6 @@ export default function Index() {
     const [ref, inView] = useInView({ threshold: 0.5 });
 
     useEffect(() => {
-      console.log(window.innerWidth);
       if (inView && window.innerWidth > 700) {
         props.inViewHandler();
       }

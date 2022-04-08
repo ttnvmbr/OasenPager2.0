@@ -6,7 +6,7 @@ export function DotNav(props) {
       {props.sections.map((section, index) => (
         <Link to={`#${section}`} className=" relative top-0 w-2 h-2">
           <li
-            key={section + index}
+            key={index}
             className={`${
               props.activeState === index
                 ? "opacity-100 bg-white scale-200"

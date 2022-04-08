@@ -567,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -623,14 +627,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-height: 100%;
 }
 
-.max-h-\[35rem\] {
-  max-height: 35rem;
-}
-
-.max-h-40 {
-  max-height: 10rem;
-}
-
 .max-h-60 {
   max-height: 15rem;
 }
@@ -655,10 +651,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.25rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-44 {
   width: 11rem;
 }
@@ -667,16 +659,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
-.w-\[55\.5\%\] {
-  width: 55.5%;
-}
-
-.w-\[27\.75\%\] {
-  width: 27.75%;
-}
-
 .w-9\/12 {
   width: 75%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[55\.5\%\] {
+  width: 55.5%;
 }
 
 .max-w-screen-lg {
@@ -685,10 +677,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-screen-md {
   max-width: 768px;
-}
-
-.max-w-screen-sm {
-  max-width: 640px;
 }
 
 .-translate-x-1\/2 {
@@ -711,6 +699,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .items-center {
@@ -911,8 +907,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:m-0 {
+    margin: 0px;
+  }
+
   .md\:mr-16 {
     margin-right: 4rem;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {
@@ -927,20 +935,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 5rem;
   }
 
-  .md\:w-full {
-    width: 100%;
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:w-14 {
     width: 3.5rem;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
   .md\:w-\[27\.75\%\] {
     width: 27.75%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:items-center {
@@ -953,6 +961,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .md\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .md\:text-sm {
@@ -997,6 +1009,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:text-left {

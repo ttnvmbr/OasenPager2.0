@@ -1,42 +1,42 @@
 export function Deploy() {
   return (
     <div className="w-screen h-screen absolute flex items-center justify-center z-30 flex-col">
-      <h1 className="oasenh1 text-lg md:text-xl lg:text-3xl text-center pb-4 md:pb-0">
+      <h1 className="oasenh1 text-lg md:text-xl lg:text-3xl text-center pb-4 lg:pb-0">
         Doorontwikkelingsmogelijkheden
       </h1>
 
       <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
         <div className="flex justify-center md:items-center h-full">
           <ul className="list-none text-blue-oasen">
-            <li className="flex items-center pb-2">
+            <li key="li-end1" className="flex items-center pb-2">
               <span
                 className="iconify text-xl mr-2"
                 data-icon="fa6-solid:droplet"
               ></span>
               <p>Mobiele stijling toevoegen</p>
             </li>
-            <li className="flex items-center pb-2 ">
+            <li key="li-end2" className="flex items-center pb-2 ">
               <span
                 className="iconify text-xl mr-2"
                 data-icon="fa6-solid:droplet"
               ></span>
               <p>Meerdere tips en quizvragen toevoegen</p>
             </li>
-            <li className="flex items-center pb-2 ">
+            <li key="li-end3" className="flex items-center pb-2 ">
               <span
                 className="iconify text-xl mr-2"
                 data-icon="fa6-solid:droplet"
               ></span>
               <p>Nieuwe content video’s maken</p>
             </li>
-            <li className="flex items-center pb-2 ">
+            <li key="li-end4" className="flex items-center pb-2 ">
               <span
                 className="iconify text-xl mr-2"
                 data-icon="fa6-solid:droplet"
               ></span>
               <p>Mogelijkheid tot accessible versie</p>
             </li>
-            <li className="flex items-center">
+            <li key="li-end5" className="flex items-center">
               <span
                 className="iconify text-xl mr-2"
                 data-icon="fa6-solid:droplet"
