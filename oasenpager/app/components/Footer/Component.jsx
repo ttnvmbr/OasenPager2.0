@@ -6,7 +6,7 @@ export function Footer() {
         <ul className="flex items-center justify-center">
           <li className="md:mr-16 mr-8 md:w-14 w-10">
             <a
-              href="https://github.com/ttnvmbr/OasenPager2.0"
+              href="https://github.com/Wazup2You/AlsTweeDruppelsWater"
               className="oasenwhite hover:text-black duration-500 "
             >
               <span

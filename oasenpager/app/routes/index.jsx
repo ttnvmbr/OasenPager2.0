@@ -11,11 +11,14 @@ import { Research } from "~/components/Research/Component";
 import { TweeDruppels } from "~/components/Concept/TweeDruppels";
 import { OasenForKids } from "~/components/Concept/OasenForKids";
 import { Accessibility } from "~/components/Concept/Accessibility";
+import { Team } from "../components/Team/Component";
+import { Choice } from "../components/choice/Component";
+import { Finish } from "../components/Finish/Component";
 
 export default function Index() {
   const [indexActive, setIndexActive] = React.useState(0);
 
-  const sections = [0, 1, 2, 3, 4, 5, 6];
+  const sections = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
   const Section = (props) => {
     const [ref, inView] = useInView({ threshold: 0.5 });
@@ -49,6 +52,11 @@ export default function Index() {
       </Section>
 
       <Section inViewHandler={() => setIndexActive(1)} id={sections[1]}>
+        <SectionContainer></SectionContainer>
+        <Team />
+      </Section>
+
+      <Section inViewHandler={() => setIndexActive(2)} id={sections[2]}>
         <div className="absolute w-full h-full top-1/2 z-30 -translate-x-1/2 left-1/2 -translate-y-1/2 flex justify-center items-center">
           <SectionContainer></SectionContainer>
         </div>
@@ -56,7 +64,7 @@ export default function Index() {
         <Research />
       </Section>
 
-      <Section inViewHandler={() => setIndexActive(2)} id={sections[2]}>
+      <Section inViewHandler={() => setIndexActive(3)} id={sections[3]}>
         <SectionContainer></SectionContainer>
         <Proces />
       </Section>
@@ -74,6 +82,19 @@ export default function Index() {
       <Section inViewHandler={() => setIndexActive(6)} id={sections[6]}>
         <SectionContainer></SectionContainer>
         <TweeDruppels />
+      </Section>
+
+      <Section inViewHandler={() => setIndexActive(7)} id={sections[7]}>
+        <SectionContainer></SectionContainer>
+        <Choice />
+      </Section>
+
+      <Section inViewHandler={() => setIndexActive(8)} id={sections[8]}>
+        <div className="absolute w-full h-full top-1/2 z-30 -translate-x-1/2 left-1/2 -translate-y-1/2 flex justify-center items-center">
+          <SectionContainer></SectionContainer>
+        </div>
+        <SectionWater></SectionWater>
+        <Finish />
       </Section>
 
       <Footer />

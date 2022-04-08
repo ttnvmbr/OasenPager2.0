@@ -3,7 +3,7 @@ export function Accessibility() {
     <div className="w-screen h-screen absolute flex items-center justify-center z-30">
       <div className="flex flex-col w-full h-full justify-center items-center relative">
         <h1 className=" w-full oasenh1 flex justify-center p-4">
-          Accessability
+          Accessibility
         </h1>
         <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
           <div className="h-52 md:w-1/2 md:p-4 md:h-96">
