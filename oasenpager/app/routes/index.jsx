@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { DotNav } from "~/components/DotNav/Component";
 import { SectionContainer } from "~/components/SectionContainer/Component";
 import { SectionWater } from "~/components/SectionWater/Component";
@@ -12,7 +12,7 @@ import { TweeDruppels } from "~/components/Concept/TweeDruppels";
 import { OasenForKids } from "~/components/Concept/OasenForKids";
 import { Accessibility } from "~/components/Concept/Accessibility";
 import { Team } from "../components/Team/Component";
-import { Choice } from "../components/choice/Component";
+import { Choice } from "../components/Choice/Component";
 import { Finish } from "../components/Finish/Component";
 
 export default function Index() {
