@@ -5,7 +5,7 @@ export function Team() {
 
       <div className="w-10/12 lg:w-1/2 max-w-screen-md  px-4 lg:p-0 flex justify-center mb-4">
         <img
-          className="aspect-auto w-10/12"
+          className="aspect-auto w-10/12 md:w-1/2"
           src="src/team.png"
           alt="het team"
         />

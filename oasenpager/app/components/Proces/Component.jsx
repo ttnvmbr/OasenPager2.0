@@ -3,13 +3,9 @@ export function Proces() {
     <div className="w-screen h-screen absolute flex items-center justify-center z-30">
       <div className="flex flex-col w-full justify-center items-center relative">
         <h1 className=" w-full oasenh1 flex justify-center p-4">Ontwerpen</h1>
-        <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full ">
-          <div className="w-10/12 lg:w-1/2 max-w-screen-md  px-4 lg:p-0 flex justify-center">
-            <img
-              className="aspect-auto max-h-[35rem]"
-              src="src/concept.jpg"
-              alt=""
-            />
+        <div className="flex flex-col lg:flex-row items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full max-w-screen-lg ">
+          <div className="w-9/12 max-w-screen-md  px-4 lg:p-0 flex justify-center">
+            <img className="aspect-auto w-full" src="src/concept.jpg" alt="" />
           </div>
           <p className="text-xs md:text-sm p-4 m-4 text-center lg:text-left max-w-screen-lg">
             We zijn begonnen met conceptualiseren door middel van “Crazy 8s”.

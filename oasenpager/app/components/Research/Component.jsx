@@ -6,12 +6,12 @@ export function Research() {
         <div className="flex flex-col items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
           <div className="flex justify-center md:items-center w-1/2 max-w-screen-md">
             <img
-              className="w-[55.5%] aspect-auto"
+              className="md:w-[27.75%] w-[55.5%] aspect-auto"
               src="src/brainstorm.jpg"
               alt="brainstorm"
             />
             <img
-              className="w-full aspect-auto"
+              className="md:w-1/2 w-full aspect-auto"
               src="src/inspoinsight.jpg"
               alt="inspiratie en inzichten"
             />

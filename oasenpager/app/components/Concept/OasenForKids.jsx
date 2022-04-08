@@ -4,7 +4,7 @@ export function OasenForKids() {
       <div className="flex flex-col w-full h-full justify-center items-center relative">
         <h1 className=" w-full oasenh1 flex justify-center p-4">Kids tour</h1>
         <div className="flex flex-col items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="w-10/12 max-w-screen-lg  px-4 md:p-0">
+          <div className="w-10/12 md:w-1/2 max-w-screen-lg  px-4 md:p-0">
             <iframe
               className="w-full aspect-video"
               src="https://www.youtube.com/embed/uIdKT3sly2I"

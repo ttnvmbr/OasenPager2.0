@@ -6,9 +6,9 @@ export function Choice() {
           Vervolgstappen
         </h1>
         <div className="flex flex-col items-center justify-center w-10/12 lg:px-10 2xl:p-0 max-h-full">
-          <div className="w-10/12 md:w-full max-w-screen-lg px-4">
+          <div className="w-full max-w-screen-lg px-4 flex justify-center">
             <img
-              className="w-full aspect-auto"
+              className="w-10/12 md:w-1/2  aspect-auto"
               src="src/vervolg.jpg"
               alt="vervolg"
             />
